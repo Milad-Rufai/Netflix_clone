@@ -1,0 +1,21 @@
+#footer{
+background-color: black;
+}
+
+#footer ul{
+    list-style-type: none;
+    text-align: match-parent justify;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#footer ul li{
+display: list-item;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: rgb(250, 248, 248);
+}
