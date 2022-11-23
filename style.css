@@ -1,6 +1,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
+    background-color: #000;
+    background-blend-mode: darken;
 }
 
 a{
@@ -9,6 +11,10 @@ a{
 }
 
 #first{
+    padding-top: 5px;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
     position: relative;
@@ -30,62 +36,241 @@ a{
 #header{
     position: relative;
     z-index: 2;
-    height: 500px;
+    height: 150px;
 }
 
 #header img{
-    width: 140px;
+    width: 12%;
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 0;
     transform: translate(40% , -50%);
 }
 
 #header a{
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: bolder;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
     position: absolute;
     top: 10%;
-    right: 0;
+    right: 5px;
     transform: translate(-60% , -50%);
 }
 
 #about {
 position: relative;
-margin: 0 26%;
+margin: 0 20%;
 z-index: 2;
 display: flex;
 flex-direction: column;
 justify-content: center;
 text-align: center;
 align-items: center;
-margin-top: 9rem;
+margin-top: 8%;
+margin-bottom: 15rem;
+}
+
+#about h1{
+    font-size: 300%;
+    font-weight: 800;
+}
+
+#about h2{
+    font-size: 200%;
+}
+
+#about p{
+    font-weight: 800;
+}
+
+#about input{
+    position: relative;
+    left: 0;
+    bottom: -8vh;
+    width: 454px;
+    height: 3rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    size: 1em;
+}
+
+#about a{
+    height: fit-content;
+    position: ;
+    background-color: #e50914;
+    color: #fff;
+    padding: 18px 12px;
+    text-decoration: none;
 }
 
 #about h1{
     font-weight: 700;
     font-size: 50px;
-    margin: 0 30px;
-    max-width: 200px;
-    line-height: 74.5px;
+    margin: 0 0px;
+    max-width: 800px;
+    line-height: 80px;
 }
+
+.divider{
+    border: 3px solid rgb(154, 152, 152);
+    opacity: 0.4;
+  }
+
+#second
+#third
+#forth
+#fifth
+#sixth{
+    border-top: 8px rgb(69, 69, 69) solid;
+    padding: 50px;
+}
+
+#second{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+.dis-left{
+    padding-left: 100px;
+    font-size: xx-large;
+}
+
+.second img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+#third{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+#forth{
+    font-size: xx-large;
+    max-width: 50%;
+    margin-left: 200px;
+}
+
+#fifth{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+
+.dis-right{
+    padding-left: 100px;
+    font-size: xx-large;
+}
+
+#sixth{
+    text-align: center;
+}
+
+#sixth{
+    align-items: center;
+    margin-left: 500px;
+}
+
+#sixth h1{
+    padding-bottom: 40px;
+    font-size: 3rem;
+    margin-left: 0px;
+    margin-right: 500px;
+}
+
+#sixth dl dt{
+    text-align: center;
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: #303030;
+    color: white;
+    text-align: left;
+    width: 50%;
+}
+#sixth dl dd{
+    text-align: center;
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: #303030;
+    color: white;
+    text-align: left;
+    width: 50%;
+}
+
+#sixth p{
+    padding-top: 60px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-left: 0;
+    margin-right: 500px;
+}
+
+.sixth-1{
+    display: inline-grid;
+    align-items: center;
+    grid-template-columns: 50% 40%;
+    margin-left: -500px;
+}
+
+.sixth-1 input{
+    width: 600px;
+    height: 3rem;
+}
+
+.sixth-1 a{
+    height: 3.25rem;
+    width: 320px;
+    left: 20px;
+    text-align: center;
+    background-color: #e50914;
+    font-size: 1.5rem;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+
 
 #footer{
-background-color: black;
+    max-width: 50%;
+    margin: 1rem auto;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 1.5rem;
 }
 
-#footer ul{
-    list-style-type: none;
-    text-align: match-parent justify;
-    margin: 10px;
-    border-radius: 5px;
+#footer ,
+#footer a{
+    color: #999999;
+    font-size: 0.9rem;
 }
 
-#footer ul li{
-display: list-item;
+
+
+
+#footer li{
+    line-height: 2.4;
 }
 
-#footer ul li a {
-    text-decoration: none;
-    font-family: Arial;
-    padding: .2em 1em;
-    color: rgb(250, 248, 248);
-}
