@@ -87,23 +87,27 @@ margin-bottom: 15rem;
     font-weight: 800;
 }
 
+.sidegroup{
+    display: flex;
+}
+
 #about input{
     position: relative;
     left: 0;
-    bottom: -8vh;
+    bottom: 2vh;
     width: 454px;
     height: 3rem;
     font-size: 1rem;
     padding-left: 0.5rem;
     outline: none;
     border: none;
-    padding: 20px 10px;
+    padding: 18px 12px;
     size: 1em;
 }
 
 #about a{
-    height: fit-content;
-    position: ;
+    position: relative;
+    height: 3rem;
     background-color: #e50914;
     color: #fff;
     padding: 18px 12px;
@@ -249,9 +253,6 @@ margin-bottom: 15rem;
     border-radius: 2px;
     color: white;
 }
-
-
-
 #footer{
     max-width: 50%;
     margin: 1rem auto;
@@ -266,10 +267,6 @@ margin-bottom: 15rem;
     color: #999999;
     font-size: 0.9rem;
 }
-
-
-
-
 #footer li{
     line-height: 2.4;
 }
