@@ -262,21 +262,24 @@ font-size: larger;
     font-size: x-large;
     font-weight: bold;
 }
+
 #footer{
-    max-width: 50%;
+    max-width: 70%;
     margin: 1rem auto;
-    overflow: auto;
     display: grid;
-    grid-template-columns: repeat(4 , 1fr);
-    grid-gap: 1.5rem;
+    grid-template-columns: repeat(5 , 1fr);  
 }
 
-#footer ,
 #footer a{
     color: #999999;
     font-size: 0.9rem;
 }
 #footer li{
     line-height: 2.4;
+    list-style: none;
+}
+
+ul.upline{
+    margin-top: 1000px;
 }
 
