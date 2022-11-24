@@ -187,9 +187,6 @@ margin-bottom: 15rem;
 
 #sixth{
     text-align: center;
-}
-
-#sixth{
     align-items: center;
     margin-left: 500px;
 }
@@ -216,6 +213,7 @@ details summary {
     border: none;
     cursor: pointer;
     padding: 20px 210px;
+    font: 50px;
   }
   
   details p {
@@ -223,7 +221,6 @@ details summary {
     color: white;
     padding: 20px 210px;
     margin: 0;
-    box-shadow: 1px 1px 2px #bbbbbb;
   }
 
   .faqbtw{
