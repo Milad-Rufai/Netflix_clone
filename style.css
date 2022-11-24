@@ -94,7 +94,6 @@ margin-bottom: 15rem;
 #about input{
     position: relative;
     left: 0;
-    bottom: 2vh;
     width: 454px;
     height: 3rem;
     font-size: 1rem;
@@ -112,6 +111,8 @@ margin-bottom: 15rem;
     color: #fff;
     padding: 18px 12px;
     text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 #about h1{
@@ -230,28 +231,36 @@ margin-bottom: 15rem;
 }
 
 .sixth-1{
-    display: inline-grid;
-    align-items: center;
-    grid-template-columns: 50% 40%;
-    margin-left: -500px;
+    display: flex;
+    font: 50px;
+}
+
+.sixth-1 p{
+font-size: larger;
 }
 
 .sixth-1 input{
-    width: 600px;
+    position: relative;
+    left: 0;
+    width: 454px;
     height: 3rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    outline: none;
+    border: none;
+    padding: 18px 12px;
+    size: 1em;
 }
 
 .sixth-1 a{
-    height: 3.25rem;
-    width: 320px;
-    left: 20px;
-    text-align: center;
+    position: relative;
+    height: 3rem;
     background-color: #e50914;
-    font-size: 1.5rem;
-    padding: 15px 32px;
-    border: none;
-    border-radius: 2px;
-    color: white;
+    color: #fff;
+    padding: 18px 12px;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
 }
 #footer{
     max-width: 50%;
