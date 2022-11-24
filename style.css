@@ -201,27 +201,6 @@ margin-bottom: 15rem;
     margin-right: 500px;
 }
 
-#sixth dl dt{
-    text-align: center;
-    padding: 20px 30px;
-    margin: 5px;
-    font-size: 1.6rem;
-    background-color: #303030;
-    color: white;
-    text-align: left;
-    width: 50%;
-}
-#sixth dl dd{
-    text-align: center;
-    padding: 20px 30px;
-    margin: 5px;
-    font-size: 1.6rem;
-    background-color: #303030;
-    color: white;
-    text-align: left;
-    width: 50%;
-}
-
 #sixth p{
     padding-top: 60px;
     font-size: 1.2rem;
@@ -229,6 +208,27 @@ margin-bottom: 15rem;
     margin-left: 0;
     margin-right: 500px;
 }
+
+details summary {
+    width: 200px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px 210px;
+  }
+  
+  details p {
+    background-color: #303030;
+    color: white;
+    padding: 20px 210px;
+    margin: 0;
+    box-shadow: 1px 1px 2px #bbbbbb;
+  }
+
+  .faqbtw{
+        border: 1px solid #000;
+  }
 
 .sixth-1{
     display: flex;
@@ -279,7 +279,5 @@ font-size: larger;
     list-style: none;
 }
 
-ul.upline{
-    margin-top: 1000px;
-}
+
 
